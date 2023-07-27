@@ -1,0 +1,15 @@
+characters={
+	GAL_manuel_rey={
+		name="Manuel I de Galiza-Portugal"
+		portraits={
+			civilian={
+				large="GFX_portrait_manuel_rey"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

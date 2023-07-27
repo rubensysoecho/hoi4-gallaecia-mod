@@ -1,0 +1,40 @@
+state={
+	id=171
+	name="STATE_171"
+	manpower = 2295085
+	
+	resources = {
+		steel = 5.000
+		tungsten = 15.000
+	}
+
+	state_category = city
+
+	history={
+		owner = GAL
+		add_core_of = GAL
+		victory_points = {
+			758 5
+		}
+		victory_points = {
+			6734 3
+		}
+
+		buildings = {
+			infrastructure = 4 #was: 6
+			dockyard = 2
+			arms_factory = 2
+			air_base = 3
+			industrial_complex = 6
+			758 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces={
+		729 758 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840 
+	}
+
+	local_supplies=0.0 
+}

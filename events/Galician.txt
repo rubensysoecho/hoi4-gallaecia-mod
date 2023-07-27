@@ -1,0 +1,72 @@
+﻿###########################
+# Galician Events
+###########################
+
+add_namespace = galicia
+
+country_event = {
+	id = galicia.1
+	title = galicia.1.t
+	desc = galicia.1.d
+	picture = GFX_report_event_dos_irlandas
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = galicia.1.a
+		ai_chance = { factor = 90 }
+		effect_tooltip = {
+			IRR = {
+				declare_war_on = {
+					target = IRE
+					type = annex_everything
+				}
+			}
+		}
+		hidden_effect = {
+			
+		}
+		ai_chance = {
+			
+		}
+	}
+	option = { 
+		name = galicia.1.b
+		ai_chance = { factor = 10 }
+		effect_tooltip = {
+			IRE = {
+				set_political_party = {
+    				ideology = fascism
+    				popularity = 40
+				}
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+				}
+			}
+			GAL = { add_to_faction = IRR }
+		}
+		ai_chance = {
+			
+		}
+	}
+}
+country_event = {
+	id = galicia.2
+	title = galicia.2.t
+	desc = galicia.2.d
+	picture = GFX_report_event_manuel_rey
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = galicia.2.a
+		ai_chance = { factor = 100 }
+		effect_tooltip = {
+			add_stability = 0.1
+		}
+		ai_chance = {
+			
+		}
+	}
+}

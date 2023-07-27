@@ -1,0 +1,22 @@
+﻿l_spanish:
+ gal_news.1.t:0 "Galicia se independiza de España"
+ gal_news.1.desc:0 "El gobierno español ha sido incapaz de mantener la unidad de su república, el Partido Galleguista ha aprovechado la situación y ha declarado la independencia de Galicia, en una solemne ceremonia el lider del partido, don Alfonso Manuel Rodriguez Castelao, ha transmitid un discurso de unidad que ha llenado al pueblo gallego de un sentimiento de felicidad sin precedentes. No sabremos que será de Galicia en los proximos años, pero lo que está seguro es que hoy es un día histórico para para la nación."
+ gal_news.2.t:0 "Guerra por la unificación de la Raza"
+ gal_news.2.desc:0 "Nuestra nación lleva siglos en un profundo letargo, Es hora de despertar!!, nuestros gloriosos ejércitos se han reunido hoy en Santiago de Compostela, donde nuestro líder pronunció un discurso motivador haciendo hincapié en la superioridad de la raza atlántica y la importancia de unificar nuestros pueblos. Ahora, nuestros ejercitos avanzan por Vigo en dirección a Portugal bajo el apoyo total de la población, parece que la gloria vuelve a sonreír a nuestro pueblo."
+ gal_news.3.t:0 "Nuestros compatriotas de Portugal son liberados"
+ gal_news.3.desc:0 "Nuestra victoria en la guerra contra Portugal ha permitido que hayamos unificado, en parte, nuestro pueblo. Aún así nuestra gloriosa cruzada no ha terminado, nuestros camaradas de Albion deben unirse a nosotros para conseguir la unidad completa de nuestra raza."
+ gal_news.4.t:0 "Rebelión en Dublín"
+ gal_news.4.desc:0 "WIP"
+ gal_news.5.t:0 "El parlamento escocés vota unirse a nuestra causa"
+ gal_news.5.desc:0 "WIP"
+ gal_news.6.t:0 "El Reino de Galicia se ha reformado"
+ gal_news.6.desc:0 "WIP"
+
+ galicia.1.t:0 "Las dos Irlandas"
+ galicia.1.d:0 "La reciente rebelión en Dublín ha provocado una secesión de gran parte del territorio irlandés. La población habla de las dos irlandas, debido a esto se cree que es imperativo realizar una operación para imponer las ideas de Risco en las islas apoyando al bando secesionista, o quizás deberíamos centrarnos en nuestros asuntos y dejar que las ideas acaben calando en la población irlandesa del oeste. Sin duda este es un momentó tan decisivo como histórico para la isla que el gran Brian Boru governó."
+ galicia.1.a:0 "¡Impongamos la reunificación!"
+ galicia.1.b:0 "Dejemos a las ideas florecer..."
+ galicia.2.t:0 "¡Tenemos nuevo Rey!"
+ galicia.2.d:0 "Se ha encontrado al pretendiente más apto para liderar a nuestro pueblo, nuestro rey adoptará el nombre de 'Manuel I' y, debido a sus lazos en la familia real de Portugal, este será el primer monarca en recibir el título de 'Rey de Galiza-Portugal'"
+ galicia.2.a:0 "A Unidade é a maior força!"
+

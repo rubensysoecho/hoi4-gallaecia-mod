@@ -1,0 +1,6 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_portrait_manuel_rey"
+		texturefile = "gfx/leaders/GAL/manuel_rey.dds"		
+	}
+}

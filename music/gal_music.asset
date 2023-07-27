@@ -1,0 +1,94 @@
+music = {
+	name = "brian_boro_march"
+	file = "brian_boro_march.ogg"
+}
+#puto o que o lea
+music = {
+	name = "calliope_house"
+	file = "calliope_house.ogg"
+}
+
+music = {
+	name = "cock_north"
+	file = "cock_north.ogg"
+}
+
+music = {
+	name = "dueling_chanters"
+	file = "dueling_chanters.ogg"
+}
+
+music = {
+	name = "espiral"
+	file = "espiral.ogg"
+}
+
+music = {
+	name = "highland_cathedral"
+	file = "highland_cathedral.ogg"
+}
+
+music = {
+	name = "jigs_bulls"
+	file = "jigs_bulls.ogg"
+}
+
+music = {
+	name = "march_king_laois"
+	file = "march_king_laois.ogg"
+}
+
+music = {
+	name = "marcha_reino"
+	file = "marcha_reino.ogg"
+}
+
+music = {
+	name = "marcha_reino_ceremonial"
+	file = "marcha_reino_ceremonial.ogg"
+}
+
+music = {
+	name = "morning_dew"
+	file = "morning_dew.ogg"
+}
+
+music = {
+	name = "muinheira_chantada"
+	file = "muinheira_chantada.ogg"
+}
+
+music = {
+	name = "muinheira_mestre"
+	file = "muinheira_mestre.ogg"
+}
+
+music = {
+	name = "muinheira_poio"
+	file = "muinheira_poio.ogg"
+}
+
+music = {
+	name = "muinheira_vilarmide"
+	file = "muinheira_vilarmide.ogg"
+}
+
+music = {
+	name = "muinheiras"
+	file = "muinheiras.ogg"
+}
+
+music = {
+	name = "osullivan_march"
+	file = "osullivan_march.ogg"
+}
+
+music = {
+	name = "trip_to_sligo"
+	file = "trip_to_sligo.ogg"
+}
+
+music = {
+	name = "wind_shakes"
+	file = "wind_shakes.ogg"
+}

@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_galician_independence"
+		texturefile = "gfx/event_pictures/galician_independence.dds"
+	}
+	spriteType = {
+		name = "GFX_risco_guerra"
+		texturefile = "gfx/event_pictures/risco_guerra.dds"
+	}
+	spriteType = {
+		name = "GFX_union_atlantica"
+		texturefile = "gfx/event_pictures/union_atlantica.dds"
+	}
+	spriteType = {
+		name = "GFX_rebelion_dublin"
+		texturefile = "gfx/event_pictures/rebelion_dublin.dds"
+	}
+	spriteType = {
+		name = "GFX_parlamento_escocia"
+		texturefile = "gfx/event_pictures/parlamento_escocia.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_dos_irlandas"
+		texturefile = "gfx/event_pictures/report_event_dos_irlandas.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_manuel_rey"
+		texturefile = "gfx/event_pictures/report_event_manuel_rey.dds"
+	}
+}

@@ -1,0 +1,295 @@
+ideas = {
+
+	country = {
+		# START_DATE
+		grupo_nos = {
+			picture = grupo_nos
+			
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+				fascism > 50
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.05
+				political_power_factor = 0.05
+			}
+		}
+		sin_ejercito = {
+			picture = sin_ejercito
+			
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = -0.02
+				stability_weekly = -0.01
+				political_power_factor = -0.2
+			}
+		}
+		administracion_incompetente = {
+			picture = administracion_incompetente
+			
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.05
+				political_power_factor = -0.2
+			}
+		}
+
+		# FOCUS OR EVENTS
+		vicente_risco = {
+			picture = vicente_risco
+			
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+				fascism > 80
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.01
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				industrial_capacity_factory = 0.05
+				political_power_factor = 0.1
+				fascism_drift = 0.1
+			}
+		}
+		inversion_latifundio = {
+			picture = inversion_latifundio
+			
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+				fascism > 70
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				local_resources_factor = 0.2
+			}
+		}
+		administracion_competente = {
+			picture = administracion_competente
+			
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.05
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		despertar_monarquico = {
+			picture = despertar_monarquico
+
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				neutrality_drift = 0.5
+				stability_weekly = 0.05
+			}
+		}
+		recuperar_gloria = {
+			picture = recuperar_gloria
+
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+		ideas_risco = {
+			picture = ideas_risco
+
+			allowed = {
+				tag = IRE
+			}
+
+			available = {
+
+			}
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				fascism_drift = 0.5
+				war_support_weekly = 0.05
+			}
+		}
+		celtismo = {
+			picture = celtismo
+
+			allowed = {
+				tag = ENG
+			}
+
+			available = {
+
+			}
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = -1000
+				stability_weekly = -0.05
+			}
+		}
+		educacion_racial = {
+			picture = educacion_racial
+
+			allowed = {
+				tag = GAL
+			}
+
+			available = {
+
+			}
+			cancel = {
+				
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+	}
+}
