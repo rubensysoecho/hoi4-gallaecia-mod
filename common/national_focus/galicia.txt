@@ -1,17 +1,17 @@
 ﻿focus_tree = {
 	id = galician_focus
-	
+
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = GAL
 		}
 	}
-	
+
 	default = no
-	
+
 	continuous_focus_position = { x = 100 y = 80 }
 
 	#MILITARY BRANCH
@@ -142,7 +142,7 @@
 			factor = 1
 		}
 	}
-	
+
 	focus = {
 		id = galician_military_05
 		icon = GFX_goal_generic_allies_build_infantry
@@ -405,7 +405,7 @@
 		available = {
 			fascism > 0.5
 		}
-		
+
 		bypass = {
 
 		}
@@ -427,7 +427,7 @@
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
 	focus = {
 		id = galician_political_fascist_03
 		icon = GFX_goal_generic_allies_build_infantry
@@ -441,7 +441,7 @@
 
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
@@ -479,8 +479,8 @@
 				}
 
 				support = {
-					engineer = { x = 0 y = 0 }	
-				}	
+					engineer = { x = 0 y = 0 }
+				}
 			}
 			random_owned_controlled_state = {
 				create_unit = {
@@ -531,9 +531,9 @@
 				}
 			}
 		}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
@@ -563,7 +563,7 @@
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
 	focus = {
 		id = galician_political_fascist_05
 		icon = GFX_goal_generic_allies_build_infantry
@@ -580,7 +580,7 @@
 				exists = false
 			}
 		}
-		
+
 		bypass = {
 
 		}
@@ -623,9 +623,9 @@
 		prerequisite = { focus = galician_political_fascist_02 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -643,7 +643,7 @@
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
 	focus = {
 		id = galician_political_fascist_extra_02
 		icon = GFX_goal_generic_allies_build_infantry
@@ -656,9 +656,9 @@
 		prerequisite = { focus = galician_political_fascist_02}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -679,7 +679,7 @@
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
 	focus = {
 		id = galician_political_fascist_extra_03
 		icon = GFX_goal_generic_allies_build_infantry
@@ -692,9 +692,9 @@
 		prerequisite = { focus = galician_political_fascist_extra_02 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -725,8 +725,8 @@
 		ai_will_do = {
 			factor = 1
 		}
-	}	
-	
+	}
+
 	focus = {
 		id = galician_political_fascist_extra_04
 		icon = GFX_goal_generic_allies_build_infantry
@@ -739,9 +739,9 @@
 		prerequisite = { focus = galician_political_fascist_extra_01 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -764,19 +764,22 @@
 		id = galician_political_fascist_06 #guerra de venganza
 		icon = GFX_goal_generic_allies_build_infantry
 
-		x = 10
+		x = 15
 		y = 12
 
 		cost = 10
 
 		prerequisite = { focus = galician_political_fascist_05 }
-	
+		prerequisite = { focus = galician_political_monarchist_04 }
+
+		mutually_exclusive = { focus = galician_political_fascist_07 }
+
 		available = {
-			
+
 		}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
@@ -812,10 +815,12 @@
 
 		prerequisite = { focus = galician_political_fascist_05 }
 
+		mutually_exclusive = { focus =  galician_political_fascist_06 }
+
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -858,7 +863,7 @@
 				fascism > 0.4
 			}
 		}
-		
+
 		bypass = {
 
 		}
@@ -893,8 +898,8 @@
 						artillery_brigade = { x = 2 y = 1 }
 					}
 					support = {
-						engineer = { x = 0 y = 0 }	
-					}	
+						engineer = { x = 0 y = 0 }
+					}
 				}
 				add_state_core = 134
 				add_state_core = 135
@@ -951,9 +956,9 @@
 		prerequisite = { focus = galician_political_fascist_08 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -979,7 +984,7 @@
 		}
 	}
 	focus = {
-		id = galician_political_fascist_10 
+		id = galician_political_fascist_10
 		icon = GFX_goal_generic_allies_build_infantry
 
 		x = 6
@@ -990,9 +995,9 @@
 		prerequisite = { focus = galician_political_fascist_09 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -1036,8 +1041,8 @@
 						infantry = { x = 2 y = 1 }
 					}
 					support = {
-						engineer = { x = 0 y = 0 }	
-					}	
+						engineer = { x = 0 y = 0 }
+					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
@@ -1084,7 +1089,7 @@
 		id = galician_political_monarchist_01
 		icon = GFX_goal_generic_allies_build_infantry
 
-		x = 14
+		x = 16
 		y = 4.5
 
 		cost = 5
@@ -1102,7 +1107,8 @@
 			add_political_power = 50
 			add_stability = 0.05
 			add_war_support = 0.05
-			add_popularity = { ideology = neutrality popularity = 0.3 }
+			add_popularity = { ideology = neutrality popularity = 0.1 }
+			add_ideas = { nostalgia_sueva }
 		}
 
 		ai_will_do = {
@@ -1113,7 +1119,7 @@
 		id = galician_political_monarchist_02
 		icon = GFX_goal_generic_allies_build_infantry
 
-		x = 14
+		x = 16
 		y = 6
 
 		cost = 10
@@ -1122,7 +1128,7 @@
 
 		available = {
 		}
-		
+
 		bypass = {
 		}
 
@@ -1134,7 +1140,7 @@
 
 		completion_reward = {
 			remove_ideas = administracion_incompetente
-			add_ideas = { idea = despertar_monarquico }			
+			add_ideas = { despertar_monarquico }
 		}
 
 		ai_will_do = {
@@ -1145,17 +1151,18 @@
 		id = galician_political_monarchist_03
 		icon = GFX_goal_generic_allies_build_infantry
 
-		x = 14
+		x = 16
 		y = 7.5
 
 		cost = 5
 
 		prerequisite = { focus = galician_political_monarchist_02 }
+		mutually_exclusive = { focus = galician_political_suevian_01 }
 
 		available = {
 			neutrality > 0.4
 		}
-		
+
 		bypass = {
 
 		}
@@ -1175,14 +1182,14 @@
 				elections_allowed = no
 			}
 
-			add_stability = 0.2
-			add_war_support = 0.2
+			add_stability = 0.1
+			add_war_support = 0.1
 			add_political_power = 50
 
 			hidden_effect = {
 				country_event = { id = galicia.2 }
 				country_event = { id = gal_news.6 }
-				set_country_flag = "gfx/flags/GAL.tga"
+				set_country_flag = "gfx/flags/GAL_neutrality.tga"
 			}
 		}
 
@@ -1204,7 +1211,7 @@
 		available = {
 			has_government = neutrality
 		}
-		
+
 		bypass = {
 		}
 
@@ -1252,8 +1259,8 @@
 
 				support = {
 					engineer = { x = 0 y = 0 }
-					artillery = { x = 0 y = 1 }	
-				}	
+					artillery = { x = 0 y = 1 }
+				}
 			}
 			random_owned_controlled_state = {
 					create_unit = {
@@ -1271,7 +1278,7 @@
 				}
 
 			hidden_effect = {
-				
+
 			}
 		}
 
@@ -1291,9 +1298,9 @@
 		prerequisite = { focus = galician_political_monarchist_03 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -1305,7 +1312,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			
+
 		}
 
 		ai_will_do = {
@@ -1324,9 +1331,9 @@
 		prerequisite = { focus = galician_political_monarchist_03 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -1338,7 +1345,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			
+
 		}
 
 		ai_will_do = {
@@ -1349,17 +1356,17 @@
 		id = galician_political_monarchist_07
 		icon = GFX_goal_generic_allies_build_infantry
 
-		x = 16
-		y = 10.5
+		x = 18
+		y = 10
 
 		cost = 5
 
-		prerequisite = { focus = galician_political_monarchist_03 }
+		prerequisite = { focus = galician_political_monarchist_06 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -1371,14 +1378,358 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			
+
 		}
 
 		ai_will_do = {
 			factor = 1
 		}
 	}
+	focus = {
+		id = galician_political_monarchist_08
+		icon = GFX_goal_generic_allies_build_infantry
 
+		x = 18
+		y = 11
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_monarchist_07 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_monarchist_09
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 16
+		y = 10
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_monarchist_05 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_suevian_01
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 22
+		y = 7.5
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_monarchist_02 }
+		mutually_exclusive = { focus = galician_political_monarchist_03 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			remove_ideas = {
+				sin_ejercito
+			}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+
+			add_war_support = 0.25
+
+			hidden_effect = {
+				country_event = { id = galicia.3 }
+				country_event = { id = gal_news.6 }
+				set_country_flag = "gfx/flags/GAL_neutrality.tga"
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_suevian_02
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 21
+		y = 9
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_suevian_01 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_suevian_03
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 23
+		y = 9
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_suevian_01 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_suevian_04
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 21
+		y = 10
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_suevian_02 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_suevian_05
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 21
+		y = 11
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_suevian_04 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_suevian_06
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 23
+		y = 10
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_suevian_03 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_suevian_07
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 23
+		y = 11
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_suevian_06 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = galician_political_suevian_08
+		icon = GFX_goal_generic_allies_build_infantry
+
+		x = 23
+		y = 12
+
+		cost = 5
+
+		prerequisite = { focus = galician_political_suevian_07 }
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 
 	# INDUSTRIAL BRANCH
@@ -1394,7 +1745,7 @@
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
@@ -1435,9 +1786,9 @@
 		prerequisite = { focus = galician_industry_01 }
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -1461,4 +1812,4 @@
 			factor = 1
 		}
 	}
-}		
+}

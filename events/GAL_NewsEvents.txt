@@ -9,11 +9,11 @@ news_event = {
 	title = gal_news.1.t
 	desc = gal_news.1.desc
 	picture = GFX_galician_independence
-	
+
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Viva a nazón de Breogán!"
 	}
@@ -23,11 +23,11 @@ news_event = {
 	title = gal_news.2.t
 	desc = gal_news.2.desc
 	picture = GFX_risco_guerra
-	
+
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Vivamos como galegos!"
 	}
@@ -37,15 +37,15 @@ news_event = {
 	title = gal_news.3.t
 	desc = gal_news.3.desc
 	picture = GFX_union_atlantica
-	
+
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "O bo camiño"
 	}
-	inmediate = {
+	immediate = {
 		play_song = "marcha_reino_ceremonial"
 	}
 }
@@ -54,15 +54,15 @@ news_event = {
 	title = gal_news.4.t
 	desc = gal_news.4.desc
 	picture = GFX_rebelion_dublin
-	
+
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Somos un ejemplo para el pueblo celta!"
 	}
-	inmediate = {
+	immediate = {
 		play_song = "brian_boro_march"
 	}
 }
@@ -71,15 +71,15 @@ news_event = {
 	title = gal_news.5.t
 	desc = gal_news.5.desc
 	picture = GFX_parlamento_escocia
-	
+
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Las banderas se reúnen al fin"
 	}
-	inmediate = {
+	immediate = {
 		play_song = "brian_boro_march"
 	}
 }
@@ -88,15 +88,15 @@ news_event = {
 	title = gal_news.6.t
 	desc = gal_news.6.desc
 	picture = GFX_reino_galicia
-	
+
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Viva a nazón de Breogán!"
 	}
-	inmediate = {
+	immediate = {
 		play_song = "marcha_reino"
 	}
 }
