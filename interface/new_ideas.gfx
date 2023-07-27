@@ -1,46 +1,50 @@
-spriteTypes = {	
+spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_grupo_nos"
-		texturefile = "gfx/interface/ideas/grupo_nos.dds"		
+		texturefile = "gfx/interface/ideas/grupo_nos.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_sin_ejercito"
-		texturefile = "gfx/interface/ideas/sin_ejercito.dds"		
+		texturefile = "gfx/interface/ideas/sin_ejercito.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_inversion_latifundio"
-		texturefile = "gfx/interface/ideas/inversion_latifundio.dds"		
+		texturefile = "gfx/interface/ideas/inversion_latifundio.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_vicente_risco"
-		texturefile = "gfx/interface/ideas/vicente_risco.dds"		
+		texturefile = "gfx/interface/ideas/vicente_risco.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_administracion_incompetente"
-		texturefile = "gfx/interface/ideas/administracion_incompetente.dds"		
+		texturefile = "gfx/interface/ideas/administracion_incompetente.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_administracion_competente"
-		texturefile = "gfx/interface/ideas/administracion_competente.dds"		
+		texturefile = "gfx/interface/ideas/administracion_competente.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_despertar_monarquico"
-		texturefile = "gfx/interface/ideas/despertar_monarquico.dds"		
+		texturefile = "gfx/interface/ideas/despertar_monarquico.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_recuperar_gloria"
-		texturefile = "gfx/interface/ideas/recuperar_gloria.dds"		
+		texturefile = "gfx/interface/ideas/recuperar_gloria.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_ideas_risco"
-		texturefile = "gfx/interface/ideas/ideas_risco.dds"		
+		texturefile = "gfx/interface/ideas/ideas_risco.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_celtismo"
-		texturefile = "gfx/interface/ideas/celtismo.dds"		
+		texturefile = "gfx/interface/ideas/celtismo.dds"
 	}
 	spriteType = {
 		name = "GFX_educacion_racial"
-		texturefile = "gfx/interface/educacion_racial.dds"
+		texturefile = "gfx/interface/ideas/educacion_racial.dds"
+	}
+	spriteType = {
+		name = "GFX_nostalgia_sueva"
+		texturefile = "gfx/interface/ideas/nostalgia_sueva.dds"
 	}
 }

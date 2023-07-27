@@ -1,6 +1,7 @@
 ﻿l_spanish:
  POG_GAL:0 "Altísimo Reino Atlántico"
  POR_GAL:0 "Reino de Galiza-Portugal"
+ SBV_GAL:0 "Reino Suevo"
  INS_HOL_democratic:0 "Indias Orientales Neerlandesas"
  INS_HOL_democratic_DEF:0 "Las Indias Orientales Neerlandesas"
  INS_subject:0 "Indias Orientales $OVERLORDADJ$"
@@ -1052,7 +1053,7 @@
  BUL_ff_bulgaria:0 "$BUL_communism$"
  BUL_ff_bulgaria_DEF:0 "$BUL_communism_DEF$"
  BUL_ff_bulgaria_ADJ:0 "$BUL_communism_ADJ$"
- 
+
  GRE_dem_monarchy_fascism:0 "Unión Nacional de Grecia"
  GRE_dem_monarchy_fascism_DEF:0 "la Unión Nacional de Grecia"
  GRE_dem_monarchy_fascism_ADJ:0 "de Grecia"
@@ -1246,7 +1247,7 @@
  mountainous_republics_unified:0 "Cáucaso Septentrional"
  mountainous_republics_unified_DEF:0 "Cáucaso Septentrional"
  mountainous_republics_unified_ADJ:0 "del Cáucaso Septentrional"
- 
+
  transcaucasia_unified_SOV_communism_subject:0 "República Soviética Socialista Federativa de Transcaucasia"
  transcaucasia_unified_SOV_communism_subject_DEF:0 "la República Soviética Socialista Federativa de Transcaucasia"
  transcaucasia_unified_neutrality:0 "Federación de Transcaucasia"
@@ -1260,7 +1261,7 @@
  transcaucasia_unified:0 "Transcaucasia"
  transcaucasia_unified_DEF:0 "Transcaucasia"
  transcaucasia_unified_ADJ:0 "de Transcaucasia"
- 
+
  siberia_unified_SOV_communism_subject:0 "República Soviética Socialista Federativa de Siberia"
  siberia_unified_SOV_communism_subject_DEF:0 "la República Soviética Socialista Federativa de Siberia"
  siberia_unified_neutrality:0 "Estado Multinacional de Siberia"
@@ -1274,7 +1275,7 @@
  siberia_unified:0 "Siberia"
  siberia_unified_DEF:0 "Siberia"
  siberia_unified_ADJ:0 "de Siberia"
- 
+
  idel_ural_SOV_communism_subject:0 "República Soviética Socialista Federativa de Idel-Ural"
  idel_ural_SOV_communism_subject_DEF:0 "la República Soviética Socialista Federativa de Idel-Ural"
  idel_ural_neutrality:0 "Estado de Idel-Ural"
@@ -1288,7 +1289,7 @@
  idel_ural:0 "Idel-Ural"
  idel_ural_DEF:0 "el Estado de Idel-Ural"
  idel_ural_ADJ:0 "de Idel-Ural"
- 
+
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  BALTIC_belarus_communism:0 "República Socialista Soviética Bielorrusa $NONIDEOLOGY$"

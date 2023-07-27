@@ -1189,7 +1189,6 @@
 			hidden_effect = {
 				country_event = { id = galicia.2 }
 				country_event = { id = gal_news.6 }
-				set_country_flag = "gfx/flags/GAL_neutrality.tga"
 			}
 		}
 
@@ -1312,7 +1311,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-
+			add_manpower = 20000
 		}
 
 		ai_will_do = {
@@ -1464,7 +1463,7 @@
 		mutually_exclusive = { focus = galician_political_monarchist_03 }
 
 		available = {
-
+			neutrality > 0.4
 		}
 
 		bypass = {
@@ -1491,8 +1490,8 @@
 			hidden_effect = {
 				country_event = { id = galicia.3 }
 				country_event = { id = gal_news.6 }
-				set_country_flag = "gfx/flags/GAL_neutrality.tga"
 			}
+			set_cosmetic_tag = SBV_GAL
 		}
 
 		ai_will_do = {

@@ -188,3 +188,13 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "the_pajariña"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}

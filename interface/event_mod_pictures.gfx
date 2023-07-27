@@ -27,4 +27,12 @@ spriteTypes = {
 		name = "GFX_report_event_manuel_rey"
 		texturefile = "gfx/event_pictures/report_event_manuel_rey.dds"
 	}
+	spriteType = {
+		name = "GFX_reino_galicia"
+		texturefile = "gfx/event_pictures/reino_galicia.dds"
+	}
+	spriteType = {
+		name = "GFX_reino_suevo"
+		texturefile = "gfx/event_pictures/reino_galicia.dds"
+	}
 }

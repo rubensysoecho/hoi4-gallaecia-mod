@@ -2,7 +2,7 @@ music = {
 	name = "brian_boro_march"
 	file = "brian_boro_march.ogg"
 }
-#puto o que o lea
+
 music = {
 	name = "calliope_house"
 	file = "calliope_house.ogg"
@@ -91,4 +91,9 @@ music = {
 music = {
 	name = "wind_shakes"
 	file = "wind_shakes.ogg"
+}
+
+music = {
+	name = "the_pajariña"
+	file = "the_pajariña.ogg"
 }

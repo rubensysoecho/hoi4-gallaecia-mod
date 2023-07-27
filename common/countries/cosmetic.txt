@@ -2,9 +2,15 @@ POR_GAL = {
 	color = rgb { 5 150 255 }
 	color_ui = rgb { 5 150 255 }
 }
+
 POG_GAL = {
 	color = rgb { 3 32 88 }
 	color_ui = rgb { 3 32 88 }
+}
+
+SBV_GAL = {
+	color = rgb { 242 203 5 }
+	color_ui = rgb { 242 203 5 }
 }
 
 MAL_UK = {
@@ -32,7 +38,7 @@ HUN_EMPIRE = {
 	color_ui = rgb { 255 255 255 }
 }
 
-AUS_NOT_WHITE = {	
+AUS_NOT_WHITE = {
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 255 164 127 }
 }
@@ -495,7 +501,7 @@ MAE_neutrality = {
 	color_ui = rgb { 35 65 153 }
 }
 
-ARM_UK = { 
+ARM_UK = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }
 }
