@@ -117,3 +117,37 @@ news_event = {
 		play_song = "marcha_reino"
 	}
 }
+news_event = {
+	id = gal_news.8
+	title = gal_news.8.t
+	desc = gal_news.8.desc
+	picture = GFX_reino_suevo
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Polos devanceiros!"
+	}
+	immediate = {
+		play_song = "marcha_reino"
+	}
+}
+news_event = {
+	id = gal_news.9
+	title = gal_news.9.t
+	desc = gal_news.9.desc
+	picture = GFX_reino_suevo
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Polos devanceiros!"
+	}
+	immediate = {
+		play_song = "marcha_reino"
+	}
+}

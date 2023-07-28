@@ -1277,7 +1277,8 @@
 				}
 
 			hidden_effect = {
-
+				country_event = { id = gal_news.2 }
+				play_song = "muinheira_vilarmide"
 			}
 		}
 
@@ -1311,7 +1312,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			add_manpower = 20000
+			add_ideas = { locus_amoenus }
 		}
 
 		ai_will_do = {
@@ -1344,7 +1345,52 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
+			add_war_support = 0.3
 
+			division_template = {
+				name = "Garda Real"
+				priority = 1
+				division_names_group = SPR_ARM_01
+
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+
+					infantry = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }
+				}
+
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"1ª Lexion de Garcia 'Compostela'\" division_template = \"Garda Real\" start_experience_factor = 1"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"2ª Lexion de Garcia 'Tuy'\" division_template = \"Garda Real\" start_experience_factor = 1"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"3ª Lexion de Garcia 'Rianxo'\" division_template = \"Garda Real\" start_experience_factor = 1"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"4ª Lexion de Garcia 'Neboeiro'\" division_template = \"Garda Real\" start_experience_factor = 1"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"5ª Lexion de Garcia 'Lobishome'\" division_template = \"Garda Real\" start_experience_factor = 1"
+					owner = GAL
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1377,7 +1423,47 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
+			add_political_power = 150
+			command_power_gain = 100
+			division_template = {
+				name = "Cabaleiros da Orde de Santiago"
+				priority = 1
+				division_names_group = SPR_ARM_01
 
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 0 y = 2 }
+
+					cavalry = { x = 1 y = 0 }
+					cavalry = { x = 1 y = 1 }
+					artillery = { x = 1 y = 2 }
+
+					infantry = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }
+				}
+
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Cabaleiros da Orde de Santiago\" division_template = \"Cabaleiros da Orde de Santiago\" start_experience_factor = 1"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"Cabaleiros da Orde de Santiago\" division_template = \"Cabaleiros da Orde de Santiago\" start_experience_factor = 1"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"Cabaleiros da Orde de Santiago\" division_template = \"Cabaleiros da Orde de Santiago\" start_experience_factor = 1"
+					owner = GAL
+				}
+			}
+			hidden_effect = {
+				country_event = { id = gal_news.8 }
+			}
 		}
 
 		ai_will_do = {
@@ -1410,7 +1496,9 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-
+			hidden_effect = {
+				country_event = { id = gal_news.9 }
+			}
 		}
 
 		ai_will_do = {
@@ -1443,7 +1531,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-
+			add_ideas = { sociedad_bucolica }
 		}
 
 		ai_will_do = {
@@ -1557,7 +1645,52 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
+			add_war_support = 0.3
 
+			division_template = {
+				name = "Fillos de Breogán"
+				priority = 1
+				division_names_group = SPR_ARM_01
+
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+
+					infantry = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }
+				}
+
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Fillos de Breogán\" division_template = \"Fillos de Breogán\" start_experience_factor = 0.8"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"Fillos de Breogán\" division_template = \"Fillos de Breogán\" start_experience_factor = 0.8"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"Fillos de Breogán\" division_template = \"Fillos de Breogán\" start_experience_factor = 0.8"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"Fillos de Breogán\" division_template = \"Fillos de Breogán\" start_experience_factor = 0.8"
+					owner = GAL
+				}
+				create_unit = {
+					division = "name = \"Fillos de Breogán\" division_template = \"Fillos de Breogán\" start_experience_factor = 0.8"
+					owner = GAL
+				}
+			}
 		}
 
 		ai_will_do = {
